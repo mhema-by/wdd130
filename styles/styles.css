@@ -14,7 +14,7 @@ main {
     max-width: fit-content;
     border: #eee;
     padding: 20px;
-    box-shadow: #926b6b;
+    box-shadow: 2px 2px 4px#926b6b;
 }
 
 h1 {
@@ -50,11 +50,11 @@ aside img {
 }
 
 main img {
-    width: 150;
+    width: 150px;
     height: auto;
     border: #333;
     padding: 10px;
-    box-shadow: #000;
+    box-shadow: 2px 2px 4px #000;
 }
 
 p {
