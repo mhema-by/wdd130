@@ -9,6 +9,11 @@ nav a {
     padding: 20px;
 }
 
+main {
+    width: 400px;
+
+}
+
 h1 {
     color: darkblue;
 }
@@ -22,7 +27,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 aside {
@@ -33,25 +38,27 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-}
 
-aside img {
-    width: 200px;
-    height: auto;
+    aside img {
+        width: 200px;
+        height: auto;
 
-}
+    }
 
-main img {
-    width: 150;
-    height: auto;
-}
+    main img {
+        width: 150;
+        height: auto;
+        border: #333;
+        padding: 10px;
+        box-shadow: #000;
+    }
 
-p {
-    padding: 0;
-}
+    p {
+        padding: 0px;
+    }
 
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
+    footer {
+        margin-top: 15px;
+        border-top: 1px solid #000;
+        text-align: center;
+    }
