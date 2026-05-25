@@ -9,12 +9,12 @@
 
 head {
     background-color: var(--primary-color);
-    lp color: var(--accent2-color);
+    color: var(--accent2-color);
 }
 
 * {
-    margin: px;
-    padding: px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -24,17 +24,17 @@ body {
 }
 
 header {
-    width: 20px;
+    width: 840px;
     margin: center;
 }
 
 main {
-    width: 0px;
+    width: 840px;
     margin: 0 auto;
 }
 
 footer {
-    width: 0px;
+    width: 840px;
     margin: 0 auto;
 }
 
@@ -54,10 +54,10 @@ nav,
 p,
 section,
 article {
-    margin: 0px;
-    padding: 0px;
+    margin: 16px;
+    padding: 8px;
 }
 
 .socialmedia a {
-    text-decoration: #264653;
+    text-decoration: none;
 }
