@@ -9,12 +9,12 @@
 
 head {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    lp color: var(--accent2-color);
 }
 
 * {
-    margin: 40px;
-    padding: 40px;
+    margin: px;
+    padding: px;
     box-sizing: border-box;
 }
 
@@ -24,21 +24,27 @@ body {
 }
 
 header {
-    width: 48px;
-    margin: 0 auto;
+    width: 20px;
+    margin: center;
 }
 
 main {
-    width: 48px;
+    width: 0px;
     margin: 0 auto;
 }
 
 footer {
-    width: 48px;
+    width: 0px;
     margin: 0 auto;
 }
 
-h1,
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-top: 20px;
+    margin-bottom: 15;
+}
+
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -48,8 +54,8 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
-    padding: 8px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .socialmedia a {
