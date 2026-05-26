@@ -13,7 +13,7 @@ head {
 }
 
 * {
-    margin: 5px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -69,7 +69,7 @@ article {
 }
 
 .socialmedia a {
-    text-decoration: 0px;
+    text-decoration: none;
 }
 
 .socialmedia img {
