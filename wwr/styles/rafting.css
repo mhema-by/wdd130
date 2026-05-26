@@ -23,6 +23,28 @@ body {
     color: var(--accent1-color);
 }
 
+.help {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-emphasis-color: #689d85;
+}
+
+.hp {
+    background-color: #536291;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+
+.help li a {
+    text-decoration: none;
+    color: #e8eae6;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 header {
     width: 840px;
     margin: 0 auto;
