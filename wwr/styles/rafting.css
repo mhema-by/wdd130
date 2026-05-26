@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #105510;
+    --primary-color: #1b0d79;
     --secondary-color: #f4a261;
-    --accent1-color: #264653;
+    --accent1-color: #023be6;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Nairobi", serif;
     --body-font: arial, Helvetica, sans-serif;
@@ -13,7 +13,7 @@ head {
 }
 
 * {
-    margin: 0;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -25,12 +25,12 @@ body {
 
 header {
     width: 840px;
-    margin: auto;
+    margin: center;
 }
 
 main {
     width: 840px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 footer {
@@ -48,6 +48,16 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+p {
+    background-color: var(--accent2-color);
+    display: block;
+    border-radius: 10px;
 }
 
 nav,
@@ -59,7 +69,11 @@ article {
 }
 
 .socialmedia a {
-    text-decoration: none;
+    text-decoration: 0px;
+}
+
+.socialmedia img {
+    width: 30px;
 }
 
 .hero {
@@ -72,9 +86,10 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
+    left: 20x;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -83,7 +98,19 @@ h1 {
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
 .hero article img {
     float: right;
-    width: 125px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 30px;
 }
